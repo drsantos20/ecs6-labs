@@ -1,1 +1,5 @@
-console.log("Hello from Javascript in another file")
+var print = function print() {
+    console.log("function test works");
+}
+
+print()
