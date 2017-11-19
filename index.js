@@ -1,5 +1,7 @@
-var print = function print() {
-    console.log("function test works");
-}
+var names = ["Frodo", "Sam", "Merry", "Pippin"];
 
-print()
+var i = 0;
+
+while( i < 6 ) {
+    console.log(names[i])
+}
