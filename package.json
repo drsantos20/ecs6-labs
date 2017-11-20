@@ -1,0 +1,33 @@
+{
+  "name": "ecs6-labs",
+  "version": "1.0.0",
+  "description": "This is my lab repo for ecma script 6",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drsantos20/ecs6-labs.git"
+  },
+  "bapel": {
+    "predents": ["es2015"]
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drsantos20/ecs6-labs/issues"
+  },
+  "homepage": "https://github.com/drsantos20/ecs6-labs#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
