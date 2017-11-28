@@ -1,1 +1,3 @@
-console.log('Hello world! (from webpack) update')
+let a = `good`;
+let greeting = `${a} morning`;
+console.log(greeting);
